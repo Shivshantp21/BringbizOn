@@ -1,0 +1,172 @@
+[
+  {
+    "id": "1",
+    "applicantId": "APPL001",
+    "applicantName": "Rajesh Kumar",
+    "govtIdType": "Aadhar",
+    "govtIdNumber": "1234-5678-9012",
+    "loadApplied": 70,
+    "status": "Approved",
+    "dateOfApplication": "2024-12-15"
+  },
+  {
+    "id": "2",
+    "applicantId": "APPL002",
+    "applicantName": "Sita Devi",
+    "govtIdType": "PAN",
+    "govtIdNumber": "ABCDE1234F",
+    "loadApplied": 75,
+    "status": "Approved",
+    "dateOfApplication": "2025-01-10"
+  },
+  {
+    "id": "3",
+    "applicantId": "APPL003",
+    "applicantName": "Vikram Singh",
+    "govtIdType": "Aadhar",
+    "govtIdNumber": "5678-1234-5678",
+    "loadApplied": 180,
+    "status": "Rejected",
+    "dateOfApplication": "2025-01-22"
+  },
+  {
+    "id": "4",
+    "applicantId": "APPL004",
+    "applicantName": "Neha Sharma",
+    "govtIdType": "PAN",
+    "govtIdNumber": "XYZPD1234K",
+    "loadApplied": 90,
+    "status": "Pending",
+    "dateOfApplication": "2024-11-30"
+  },
+  {
+    "id": "5",
+    "applicantId": "APPL005",
+    "applicantName": "Amitabh Bachchan",
+    "govtIdType": "Aadhar",
+    "govtIdNumber": "1111-2222-3333",
+    "loadApplied": 200,
+    "status": "Approved",
+    "dateOfApplication": "2024-10-18"
+  },
+  {
+    "id": "6",
+    "applicantId": "APPL006",
+    "applicantName": "Deepika Patel",
+    "govtIdType": "PAN",
+    "govtIdNumber": "QWER1234T",
+    "loadApplied": 130,
+    "status": "Rejected",
+    "dateOfApplication": "2025-02-05"
+  },
+  {
+    "id": "7",
+    "applicantId": "APPL007",
+    "applicantName": "Manoj Tiwari",
+    "govtIdType": "Aadhar",
+    "govtIdNumber": "9988-7766-5544",
+    "loadApplied": 190,
+    "status": "Pending",
+    "dateOfApplication": "2025-02-15"
+  },
+  {
+    "id": "8",
+    "applicantId": "APPL008",
+    "applicantName": "Priya Verma",
+    "govtIdType": "PAN",
+    "govtIdNumber": "LMNOP9876Q",
+    "loadApplied": 60,
+    "status": "Approved",
+    "dateOfApplication": "2025-03-01"
+  },
+  {
+    "id": "9",
+    "applicantId": "APPL009",
+    "applicantName": "Sunil Kumar",
+    "govtIdType": "Aadhar",
+    "govtIdNumber": "4433-2211-9988",
+    "loadApplied": 170,
+    "status": "Rejected",
+    "dateOfApplication": "2025-03-10"
+  },
+  {
+    "id": "10",
+    "applicantId": "APPL010",
+    "applicantName": "Anjali Deshmukh",
+    "govtIdType": "PAN",
+    "govtIdNumber": "ASDF4567H",
+    "loadApplied": 120,
+    "status": "Approved",
+    "dateOfApplication": "2024-12-01"
+  },
+  {
+    "id": "11",
+    "applicantId": "APPL011",
+    "applicantName": "Rohit Sharma",
+    "govtIdType": "Aadhar",
+    "govtIdNumber": "7777-8888-9999",
+    "loadApplied": 200,
+    "status": "Pending",
+    "dateOfApplication": "2025-01-05"
+  },
+  {
+    "id": "12",
+    "applicantId": "APPL012",
+    "applicantName": "Kavita Joshi",
+    "govtIdType": "PAN",
+    "govtIdNumber": "ZXCV1234B",
+    "loadApplied": 140,
+    "status": "Rejected",
+    "dateOfApplication": "2025-02-20"
+  },
+  {
+    "id": "13",
+    "applicantId": "APPL013",
+    "applicantName": "Arjun Kapoor",
+    "govtIdType": "Aadhar",
+    "govtIdNumber": "3333-4444-5555",
+    "loadApplied": 160,
+    "status": "Approved",
+    "dateOfApplication": "2025-03-15"
+  },
+  {
+    "id": "14",
+    "applicantId": "APPL014",
+    "applicantName": "Pooja Bhatt",
+    "govtIdType": "PAN",
+    "govtIdNumber": "BNML6789T",
+    "loadApplied": 80,
+    "status": "Pending",
+    "dateOfApplication": "2025-01-12"
+  },
+  {
+    "id": "15",
+    "applicantId": "APPL015",
+    "applicantName": "Naveen Chandra",
+    "govtIdType": "Aadhar",
+    "govtIdNumber": "5555-6666-7777",
+    "loadApplied": 150,
+    "status": "Rejected",
+    "dateOfApplication": "2025-02-28"
+  },
+  {
+    "id": "16",
+    "applicantId": "APPL016",
+    "applicantName": "Ritika Saini",
+    "govtIdType": "PAN",
+    "govtIdNumber": "POIU6543L",
+    "loadApplied": 110,
+    "status": "Approved",
+    "dateOfApplication": "2025-03-08"
+  },
+  {
+    "id": "17",
+    "applicantId": "APPL017",
+    "applicantName": "Harsh Vardhan",
+    "govtIdType": "Aadhar",
+    "govtIdNumber": "1111-3333-5555",
+    "loadApplied": 200,
+    "status": "Pending",
+    "dateOfApplication": "2025-03-20"
+  }
+]
