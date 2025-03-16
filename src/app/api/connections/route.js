@@ -33,7 +33,7 @@ export async function POST(req) {
   };
 
   connections.push(newEntry);
-  writeConnections(connections); // ✅ Persist the updated array
+  writeConnections(connections);
 
   return NextResponse.json(newEntry, { status: 201 });
 }
