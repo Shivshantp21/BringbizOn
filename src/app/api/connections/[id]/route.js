@@ -27,7 +27,7 @@ export async function GET(req, context) {
 }
 
 export async function PUT(req, context) {
-  const params = await context.params; // ✅ FIXED: Await the promise
+  const params = await context.params; 
   
   const updatedData = await req.json();
   const connections = readConnections();
