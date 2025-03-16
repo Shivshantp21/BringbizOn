@@ -14,7 +14,7 @@ const writeConnections = (data) => {
 };
 
 export async function GET(req, context) {
-  const params = await context.params; // ✅ FIXED: Await the promise
+  const params = await context.params; 
   
   const connections = readConnections();
   const connection = connections.find(c => c.id === params.id);
