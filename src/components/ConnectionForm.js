@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { useState } from 'react';
 
 export default function ConnectionForm({ connection, router }) {
@@ -17,11 +18,11 @@ export default function ConnectionForm({ connection, router }) {
       body: JSON.stringify(form)
     });
 
-    router.push('/');
+    router.push('/table');
   };
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-4">
+    <form onSubmit={handleSubmit} className="space-y-4 flex flex-col justify-center mx-[33%] mt-14 ">
       <div>
         <label>Applicant Name</label>
         <input
@@ -55,7 +56,12 @@ export default function ConnectionForm({ connection, router }) {
         </select>
       </div>
 
-      <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded">Save</button>
+      <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded mt-4 hover:bg-blue-900">Save</button>
+      <Link href='/'>
+        <div className='bg-white text-black rounded-md p-2 text-center hover:bg-black hover:text-white'>
+          Back to Home
+        </div>
+      </Link>
     </form>
   );
 }

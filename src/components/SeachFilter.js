@@ -1,6 +1,6 @@
 export default function SearchFilter({ searchId, setSearchId, dateRange, setDateRange }) {
     return (
-      <div className="flex gap-2">
+      <div className="flex gap-2 ">
         <input
           type="text"
           placeholder="Search by Applicant ID"
@@ -12,7 +12,7 @@ export default function SearchFilter({ searchId, setSearchId, dateRange, setDate
           type="date"
           value={dateRange.from}
           onChange={(e) => setDateRange(prev => ({ ...prev, from: e.target.value }))}
-          className="border p-2 rounded"
+          className="border p-2 rounded text-white"
         />
         <input
           type="date"
